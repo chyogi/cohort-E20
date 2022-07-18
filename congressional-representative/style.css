@@ -1,0 +1,9 @@
+.fit-picture {
+  width: 250px;
+  object-fit: contain;
+}
+
+.name {
+  font-size: xx-large;
+  font-weight: 700;
+}

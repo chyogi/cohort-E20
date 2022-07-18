@@ -1,0 +1,37 @@
+.pageHeader {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  font-size: x-large;
+  margin-top: 2rem;
+  margin-bottom: 3rem;
+}
+
+.list {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  text-align: left;
+  align-items: stretch;
+  justify-content: space-between;
+}
+
+.shop {
+  border: 2px dotted black;
+  width: 20%;
+  height: 20%;
+  display: flex;
+  margin-right: 20px;
+  /* margin-left: 10px; */
+  padding-bottom: 20px;
+  /* padding-left: 10px; */
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: stretch;
+  flex-wrap:wrap;
+  flex-grow: 1;
+  flex-shrink: 1;
+  align-content:space-around;
+  flex-basis: 30rem;
+  text-align: left;
+}
